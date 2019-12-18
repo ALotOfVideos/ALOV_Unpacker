@@ -1,4 +1,4 @@
 import os, sys
 
 print(sys._MEIPASS)
-x = input("foo")
+x = input("Press any key to continue")
