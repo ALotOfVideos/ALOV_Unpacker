@@ -1,10 +1,5 @@
 import os, sys, shutil, subprocess, glob
 
-#print("Location of 7za.exe")
-#print(sys._MEIPASS)
-#x = input("Press any key to continue")
-#zdir = os.path.join(sys._MEIPASS, "7za.exe")
-
 #Save location of 7zip
 zdir = os.path.join(sys._MEIPASS, "7z", "7z.exe")
 
@@ -13,21 +8,25 @@ d = glob.glob(os.path.join(sys._MEIPASS, "7z", "**/*.bat"), recursive = True)
 batdir = d[0]
 
 #specify destination directories
-dzdir = os.path.join(os.getcwd(), os.path.basename(batdir))
-dbatdir = os.path.join(os.getcwd(), os.path.basename(zdir))
+dzdir = os.path.join(os.getcwd(), os.path.basename(zdir))
+dbatdir = os.path.join(os.getcwd(), os.path.basename(batdir))
 
 #Copy 7z and the bat to the .exe's location
 shutil.copy(zdir, dzdir)
 shutil.copy(batdir, dbatdir)
-#The location of the batch script
 
 #run the bat file
-subprocess.run(['"' + dbatdir + '"'], check=True, shell=True)
-
+try:
+    process = subprocess.Popen([dbatdir], shell=True)
+    process.wait()
+except Exception as e:
+    print(e)
 #clean up
 os.remove(dzdir)
 os.remove(dbatdir)
 
+
+#Old Example code, for a pure python implementation
 #name_of_zipfile = "ALOVME2.7z"
 
 #number of files, 0 indexed
