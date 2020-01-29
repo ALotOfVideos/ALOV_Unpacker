@@ -1,6 +1,10 @@
 # ALOV_Unpacker
 
-Just a simple script to unzip ALOV archive multiparts. All the batch code is from Merry-in.
+Create a simple exe unpacker for ALOV archive multiparts.
+Original code by [AlphaAtlas](https://github.com/AlphaAtlas)
+Batch code by [Mellin](https://github.com/Melllin).
 
-https://www.nexusmods.com/masseffect2/mods/245/
-
+ALOV on NexusMods:
+- bit.ly/ALOV_ME1
+- bit.ly/ALOV_ME2
+- bit.ly/ALOV_ME3
