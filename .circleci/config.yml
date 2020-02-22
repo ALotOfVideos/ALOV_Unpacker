@@ -14,3 +14,5 @@ jobs:
       # virtual machine environment
       - checkout
       - run: ./buildexe.bat
+      - store_artifacts:
+          path: "dist/ALOV Unpacker.exe"
