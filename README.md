@@ -1,5 +1,7 @@
 # ALOV_Unpacker
 
+[![ALotOfVideos](https://circleci.com/gh/ALotOfVideos/ALOV_Unpacker.svg?style=shield)](https://app.circleci.com/github/ALotOfVideos/ALOV_Unpacker/pipelines)
+
 Create a simple exe unpacker for ALOV archive multiparts.
 
 Original code by [AlphaAtlas](https://github.com/AlphaAtlas).
