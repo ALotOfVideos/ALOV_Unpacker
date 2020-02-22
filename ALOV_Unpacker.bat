@@ -4,26 +4,26 @@
 
 SET "zipper=7z.exe"
 
-SET "high_n_first=ALOV ME3 v1.2 (4K) (Part 1 of 5)-773-1-2-1580155799.zip"
-SET "high_n_second=ALOV ME3 v1.2 (4K) (Part 2 of 5)-773-1-2-1580130098.zip"
-SET "high_n_third=ALOV ME3 v1.2 (4K) (Part 3 of 5)-773-1-2-1580113509.zip"
-SET "high_n_forth=ALOV ME3 v1.2 (4K) (Part 4 of 5)-773-1-2-1580113539.zip"
-SET "high_n_fifth=ALOV ME3 v1.2 (4K) (Part 5 of 5)-773-1-2-1580072974.zip"
+SET "high_n_first=ALOV ME3 v1.3 (4K) - Part 1 of 5-773-1-3-1582395354.zip"
+SET "high_n_second=ALOV ME3 v1.3 (4K) - Part 2 of 5-773-1-3-1582352550.zip"
+SET "high_n_third=ALOV ME3 v1.3 (4K) - Part 3 of 5-773-1-3-1582397311.zip"
+SET "high_n_forth=ALOV ME3 v1.3 (4K) - Part 4 of 5-773-1-3-1582302303.zip"
+SET "high_n_fifth=ALOV ME3 v1.3 (4K) - Part 5 of 5-773-1-3-1582289118.zip"
 
-SET "high_first=A Lot Of Videos (ALOV) for ME3 - 4K_1.2.zip.001"
-SET "high_second=A Lot Of Videos (ALOV) for ME3 - 4K_1.2.zip.002"
-SET "high_third=A Lot Of Videos (ALOV) for ME3 - 4K_1.2.zip.003"
-SET "high_forth=A Lot Of Videos (ALOV) for ME3 - 4K_1.2.zip.004"
-SET "high_fifth=A Lot Of Videos (ALOV) for ME3 - 4K_1.2.zip.005"
+SET "high_first=A Lot Of Videos (ALOV) for ME3 - 4K_1.3.zip.001"
+SET "high_second=A Lot Of Videos (ALOV) for ME3 - 4K_1.3.zip.002"
+SET "high_third=A Lot Of Videos (ALOV) for ME3 - 4K_1.3.zip.003"
+SET "high_forth=A Lot Of Videos (ALOV) for ME3 - 4K_1.3.zip.004"
+SET "high_fifth=A Lot Of Videos (ALOV) for ME3 - 4K_1.3.zip.005"
 
 
 
-ECHO A Lot Of Videos (ALOV) for ME3 - Unpacker for 4K version 1.2
+ECHO A Lot Of Videos (ALOV) for ME3 - Unpacker for 4K version 1.3
 ECHO _
 ECHO This automatic unpacker will do everything by itself (assuming all part files are present).
 ECHO If any files are missing you will be informed which ones are.
 ECHO The process might be long (depending on your PC's specs).
-ECHO Typical finish time for full extraction of package 1 hour 30 minutes.
+ECHO Typical finish time for full extraction of package is 1 hour 30 minutes.
 ECHO Do not exit or stop this process until informed it has finished.
 
 
